@@ -1,0 +1,5 @@
+The reason why we put pinMode(ledPin,OUTPUT); inside setup() and not loop() is because we need the OUTPUT to happen only once at the start of the 
+but placing in inside loop() tells the computer to start over and over again every time the code is run which sometimes slows down other things your code wants to do.
+When both delay () calls are removed, the  LED blinks so fast that you would not even see it blinking. In your eyes, it will look like it's turned on throughout but it 
+actually blinks.
+If i wanted the LED to be ON for 3 seconds i'll change the onTime to 3000 and if i wanted it off for half a second, i'll maintain the offTime.
