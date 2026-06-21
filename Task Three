@@ -1,0 +1,3 @@
+A parameter is a piece of information that tells a function what exactly it should do and what is should use to perform that task.
+It saves times and makes code easier to read.
+No, i can't write blinkOnce without taking any parameter.
