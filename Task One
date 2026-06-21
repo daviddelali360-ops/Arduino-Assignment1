@@ -1,0 +1,4 @@
+The difference between int and float is that int is used to store integer values while float stores numbers or values with decimals. I'd use int when I'm storing 
+whole number values such as 2,3,etc. And I'll use float when I'm storing decimal values such as pi which is 3.142.
+When Serial.begin(9600) is not written, nothing is displayed in the serial monnitor but the code stilll runs perfectly.
+The code appears once and not over and over again because it was typed in the void setup not the void loop or because th void loop is empty.
