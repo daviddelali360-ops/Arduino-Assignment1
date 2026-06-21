@@ -1,0 +1,3 @@
+The line counter=counter -1 is the decrement operation that decreases the counter variable by 1 each time the while loop runs. Without it the loop will run forever
+int count =7
+The setup() runs once when the Arduino starts but a while loop repeats code as long as a condition is true.
